@@ -1,1 +1,25 @@
 // Mixins in here
+@border-btn: 1px solid #008080;
+@text-size: 20px;
+.btn-style (@width, @height, @radius) {
+    width: @width;
+    height: @height;
+    border-radius: @radius;
+}
+
+.btn-pad (@bpadt, @bpadl) {
+    padding-top: @bpadt;
+    padding-left: @bpadl;
+}
+
+
+// style
+
+.btn {
+    border: @border-btn;
+    font-size: @text-size;
+    .btn-style(200px, 50px, 10px);
+    .btn-pad(15px, 45px);
+    color: white;
+    background: #008080;
+}
