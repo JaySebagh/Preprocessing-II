@@ -168,6 +168,32 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.nav {
+  display: flex;
+}
+.nav-name {
+  padding: 10px;
+  margin: 20px;
+}
+.nav-menu a {
+  padding: 5px;
+  margin: 10px;
+  font-size: 20px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: black;
+}
+.nav-menu {
+  height: 50px;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.divider {
+  border: 2px dashed lightgray;
+  left: 0;
+  width: 100vw;
+  position: absolute;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
