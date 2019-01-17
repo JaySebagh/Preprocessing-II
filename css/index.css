@@ -181,6 +181,7 @@ img {
 }
 .nav {
   display: flex;
+  justify-content: space-between;
 }
 .nav-name {
   padding: 10px;
@@ -196,7 +197,6 @@ img {
 }
 .nav-menu {
   height: 50px;
-  margin-left: 200px;
   margin-top: 40px;
 }
 .divider {
@@ -268,4 +268,24 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .everything {
+    padding: 10px;
+    margin: 10px;
+  }
+  .nav-name {
+    width: 300px;
+  }
+  .btn {
+    border: 1px solid #008080;
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: white;
+    background: #008080;
+  }
 }

@@ -1,6 +1,8 @@
 // Mixins in here
 @border-btn: 1px solid #008080;
 @text-size: 20px;
+@color-teal: #008080;
+
 .btn-style (@width, @height, @radius) {
     width: @width;
     height: @height;
@@ -21,5 +23,5 @@
     .btn-style(200px, 50px, 10px);
     .btn-pad(15px, 45px);
     color: white;
-    background: #008080;
+    background: @color-teal;
 }
