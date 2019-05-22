@@ -1,1 +1,43 @@
 // Navigation Styles here
+
+// @s and mixins here
+.spacing(@padding, @margin) {
+    padding: @padding;
+    margin: @margin;
+}
+
+@border: 1px solid red;
+
+
+// styling here
+
+// nav
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-name {
+    .spacing(10px, 20px);
+}
+
+.nav-menu a {
+    .spacing(5px, 10px);
+    font-size: 20px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu {
+    height: 50px;
+    margin-top: 40px;
+}
+
+.divider {
+    border: 2px dashed lightgray;
+    left: 0;
+    width: 100vw;
+    position: absolute;
+}
+
